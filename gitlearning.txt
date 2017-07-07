@@ -26,6 +26,12 @@ HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历史之间穿梭，使用命令git r
 	第二步：git rm file
 	第三步：git commit
 
-创建秘钥：
+创建秘钥：ssh-keygen -t rsa -C "email@example.com"(生成的秘钥放在用户主目录里找到.ssh目录里)
+
+添加远程库：1.git remote add origin git@github.com:yang123258/learngit.git
+	    2.git push -u origin master(第二次使用命令就可以是git push origin master)把master分支推送到远程库
+克隆远程库内容：git clone  git@github.com:yang123258/gitskills.git
+
+
 
 
