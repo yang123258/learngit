@@ -36,6 +36,8 @@ HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历史之间穿梭，使用命令git r
 	2.查看当前分支：git branch
 	3.合并分支dev到当前分支：git merge dev
 	4.删除dev分支：git branch -d dev
+用带参数的git log 查看分支的合并情况：git log --graph --pretty=oneline --abbrev-commit
+合并分支：合并分支一般使用fast forward模式,禁用Fast forward模式使用 git merge --no-ff -m "merge with no-ff" dev
 
 
 	
