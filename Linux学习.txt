@@ -1,0 +1,5 @@
+引用变量值使用$tmp(tmp指所引用的变量名)
+配置环境变量：PATH=$PATH:/home/shiyanlou/mybin
+查找文件：
+	locate /usr/share/\*.jpg(查找/usr/share/目录下的.jpg文件)
+	sudo find /etc/ -name 文件名（查找/etc/目录下的相应文件名的文件） 
